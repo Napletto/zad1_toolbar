@@ -1,6 +1,7 @@
 package com.example.a22_11_z1;
 
 import android.os.Bundle;
+import android.view.Menu;
 import android.widget.EditText;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -19,5 +20,10 @@ public class MainActivity extends AppCompatActivity {
         setSupportActionBar(toolbar);          // pasek staje się paskiem aplikacji
 
         etName = findViewById(R.id.etName);
+    }
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.menu_main, menu);
+        return true;
     }
 }

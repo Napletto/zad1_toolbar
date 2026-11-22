@@ -3,4 +3,7 @@
 
     <string name="label_name">Imię i nazwisko</string>
     <string name="hint_name">Jan Kowalski</string>
+    <string name="action_share">Udostępnij</string>
+    <string name="action_clear">Wyczyść</string>
+    <string name="action_about">O aplikacji</string>
 </resources>
