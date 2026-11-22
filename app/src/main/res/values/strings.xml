@@ -6,4 +6,10 @@
     <string name="action_share">Udostępnij</string>
     <string name="action_clear">Wyczyść</string>
     <string name="action_about">O aplikacji</string>
+    <string name="cleared">Wyczyszczono</string>
+    <string name="share_via">Udostępnij przez</string>
+    <string name="error_no_app">Brak aplikacji do obsługi tej czynności</string>
+    <string name="nothing_to_share">Najpierw wpisz imię</string>
+    <string name="title_about">O aplikacji</string>
+    <string name="about_text">Aplikacja szkoleniowa.\nTechnik programista, klasa 5.</string>
 </resources>
