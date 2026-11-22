@@ -12,4 +12,8 @@
     <string name="nothing_to_share">Najpierw wpisz imię</string>
     <string name="title_about">O aplikacji</string>
     <string name="about_text">Aplikacja szkoleniowa.\nTechnik programista, klasa 5.</string>
+    <string name="nav_form">Formularz</string>
+    <string name="nav_settings">Ustawienia</string>
+    <string name="setting_notifications">Powiadomienia</string>
+    <string name="setting_dark">Tryb ciemny</string>
 </resources>

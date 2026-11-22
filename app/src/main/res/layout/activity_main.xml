@@ -40,4 +40,33 @@
             android:maxLines="1" />
     </LinearLayout>
 
+    <!-- sekcja 2: ustawienia, domyślnie ukryta -->
+    <LinearLayout
+        android:id="@+id/sectionSettings"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:visibility="gone">
+
+        <CheckBox
+            android:id="@+id/cbNotifications"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/setting_notifications" />
+
+        <CheckBox
+            android:id="@+id/cbDark"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/setting_dark" />
+    </LinearLayout>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNav"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:menu="@menu/menu_bottom" />
+
 </LinearLayout>
